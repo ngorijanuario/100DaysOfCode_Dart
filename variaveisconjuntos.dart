@@ -11,8 +11,11 @@ void main(){
   var conjunto3 = <String> {};
   //Adicionando varios itens
   conjunto3.addAll(conjunto1);
+  //Criando conjuntos constantes
+  final valordepi = const{'3.14'};
   
   print(conjunto1);
   print(conjunto2);
   print(conjunto3);
+  print(valordepi);
 }
